@@ -9,5 +9,38 @@
 struct tupleSeries {
     static func main() {
         
+        let t = (1, 3.14, "Jerry", true, "A")
+        print("The tuple consists of \(t) and its type is \(type(of: t))")
+        print()
+        
+        var tom: (String, Int) = ("Tom", 17)
+        print("Tom's information is \(tom)")
+        tom.1 = 18
+        print("The cat's name is \(tom.0.uppercased()) and his age is \(tom.1)")
+        print()
+        
+        // Define a empty tuple
+        // let emptyTuple: () = ()
+        
+        var jerry = (name: "jerry", age: 16)
+        print("Jerry's information is \(jerry)")
+        jerry.age = 18
+        print("Jerry's name is \(jerry.name.uppercased()) and her age is \(jerry.age)")
+        print()
+        
+        var jack: (name: String, age: Int) = ("Jack", 22)
+        jack.age = 24
+        print("The person's name is \(jack.name) and his age is \(jack.age)")
+        print()
+        
+        let (name, age) = ("Rose", 20)
+        print(name)
+        print(age)
+        print("The person's name is \(name) and her age is \(age)")
+        print()
+        
+        let (username, _) = ("tom", "tom123")
+        print("The user's username is \(username)")
+        
     }
 }
