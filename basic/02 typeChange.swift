@@ -7,7 +7,7 @@
 
 import Foundation
 
-@main
+//@main
 struct typeChange {
     static func main() {
         
