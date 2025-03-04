@@ -21,6 +21,7 @@
 /* Begin PBXFileReference section */
 		375A545E2D76FFA500DBEE30 /* basic */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = basic; sourceTree = BUILT_PRODUCTS_DIR; };
 		375A54682D76FFB000DBEE30 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		375A54692D7705CE00DBEE30 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -45,6 +46,7 @@
 		375A54552D76FFA500DBEE30 = {
 			isa = PBXGroup;
 			children = (
+				375A54692D7705CE00DBEE30 /* LICENSE */,
 				375A54682D76FFB000DBEE30 /* README.md */,
 				375A54602D76FFA500DBEE30 /* basic */,
 				375A545F2D76FFA500DBEE30 /* Products */,
