@@ -7,7 +7,7 @@
 
 import Foundation
 
-//@main
+@main
 struct operators {
     static func main() {
         
@@ -29,6 +29,13 @@ struct operators {
         print(isAlcohol.isEmpty)
         print(isAlcohol.count)
         print(isAlcohol.description)
+        print(SEPARATOR)
+        
+        let radius: Double = Double.random(in: 1...5)
+        let perimeter: Double = 2 * Double.pi * radius
+        let area: Double = Double.pi * radius * radius
+        print("The circumference of a circle with a radius of \(String(format: "%.2f", radius)) is \(String(format: "%.2f", perimeter)).")
+        print("The area of ​​a circle with a radius of \(String(format: "%.2f", radius)) is \(String(format: "%.2f", area))")
         print(SEPARATOR)
         
     }

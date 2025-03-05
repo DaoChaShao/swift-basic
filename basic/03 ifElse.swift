@@ -7,7 +7,7 @@
 
 import Foundation
 
-@main
+//@main
 struct condition {
     static func main() {
         
