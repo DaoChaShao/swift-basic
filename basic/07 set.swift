@@ -78,5 +78,6 @@ struct setSeries {
             name in print(name)
         }
         print(SEPARATOR)
+        
     }
 }

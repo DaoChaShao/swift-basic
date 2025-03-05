@@ -5,9 +5,16 @@
 //  Created by 刀子叉子勺 on 2025/3/5.
 //
 
+import Fakery
+import Foundation
+
 //@main
 struct tupleSeries {
     static func main() {
+        
+        let SEPARATOR: String = String(repeating: "-", count: 30)
+        
+        let faker = Faker()
         
         let t = (1, 3.14, "Jerry", true, "A")
         print("The tuple consists of \(t) and its type is \(type(of: t))")
