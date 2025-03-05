@@ -7,7 +7,7 @@
 
 import Foundation
 
-@main
+//@main
 struct operators {
     static func main() {
         
