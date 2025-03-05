@@ -49,6 +49,27 @@ struct arraySeries {
         print(d[1])
         print(SEPARATOR)
         
+        if let item = s.first {
+            print(item)
+        } else {
+            print("No such item.")
+        }
+        print(s.last ?? "")
+        print(SEPARATOR)
+        
+        if let r: String = s.randomElement() {
+            print(r)
+        } else {
+            print("No such item.")
+        }
+        print(SEPARATOR)
+        
+        d.remove(at: 0)
+        d.removeLast()
+        print(d)
+        print(d.contains(3.0))
+        print(SEPARATOR)
+        
     }
 }
 
