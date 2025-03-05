@@ -70,6 +70,17 @@ struct arraySeries {
         print(d.contains(3.0))
         print(SEPARATOR)
         
+        let options: Array<Any> = ["12", 12]
+        if let option = options.randomElement() {
+            if let intOption = option as? Int {
+                print("Get the int \(intOption)")
+            } else if let strOption = option as? String {
+                print("Get the string \(strOption)")
+            } else {
+                print("Unknow type")
+            }
+        }
+        
     }
 }
 

@@ -8,7 +8,7 @@
 import Fakery
 import Foundation
 
-//@main
+@main
 struct forSeries {
     static func main() {
 
@@ -106,6 +106,49 @@ struct forSeries {
         print(items)
         print(items.joined())
         print(items.joined(separator: " and "))
+        print(SEPARATOR)
+        
+        var counter: Int = 0
+        while counter < 10 {
+            print("Loop \(counter + 1)")
+            counter += 1
+        }
+        print(SEPARATOR)
+        
+        counter = 0
+        repeat {
+            print("Loop \(counter + 1)")
+            counter += 1
+        } while counter < 10
+        print(SEPARATOR)
+        
+        counter = 0
+        var addition: Int = 0
+        while counter <= 100 {
+            addition += counter
+            counter += 1
+        }
+        print(addition)
+        print(SEPARATOR)
+        
+        for i in stride(from: 1, to: 10, by: 1) {
+            for j in stride(from: 1, to: i + 1, by: 1) {
+                print("\(i) * \(j) = \(i * j)", terminator: "\t")
+            }
+            print()
+        }
+        print(SEPARATOR)
+        
+        var i: Int = 1
+        while i <= 9 {
+            var j: Int = 1
+            while j <= i {
+                print("\(i) * \(j) = \(i * j)", terminator: "\t")
+                j += 1
+            }
+            print()
+            i += 1
+        }
         print(SEPARATOR)
         
     }
