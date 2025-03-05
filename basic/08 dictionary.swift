@@ -8,7 +8,7 @@
 import Fakery
 import Foundation
 
-@main
+//@main
 struct dictionarySeries {
     static func main() {
         
