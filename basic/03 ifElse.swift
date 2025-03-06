@@ -7,7 +7,7 @@
 
 import Foundation
 
-//@main
+@main
 struct condition {
     static func main() {
         
@@ -79,6 +79,16 @@ struct condition {
         default:
             print("The username and password are correct.")
         }
+        print(SEPARATOR)
+        
+        let age: Int = Int.random(in: 6...24)
+        print(age)
+        guard age >= 18 else {
+            print("You are NOT permitted to enter the nightclub.")
+            print(SEPARATOR)
+            return
+        }
+        print("You are allowed to enter the pub.")
         print(SEPARATOR)
         
     }
